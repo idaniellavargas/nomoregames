@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compra de Videojuego</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function realizarPago() {
+            // Muestra un cuadro de diálogo con el mensaje de pago realizado
+            alert("Pago realizado correctamente. Gracias por su compra.");
+
+            // Cierra la ventana actual
+            window.close();
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Comprar:"-----" </h1>
-        <form action="#" method="POST" class="payment-form">
+        <form action="#" method="POST" class="payment-form" onsubmit="realizarPago(); return false;">
             <div class="payment-options">
                 <label for="payment-method">Método de Pago:</label>
                 <select id="payment-method" name="payment-method">
