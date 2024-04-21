@@ -1,18 +1,24 @@
-import React, {useContext} from 'react'
+import React, {useContext, useState, useEffect} from 'react'
 import {ShopContext} from '../Context/ShopContext';
 
 import {useParams} from 'react-router-dom';
 import Breadcrum from '../Components/Breadcrums/Breadcrum';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
+
 const Product = () => {
-  
-  const {all_product}=useContext(ShopContext);
+  const [json, setJson] = useState([]);
+
   const {productId} = useParams();
-  const product = all_product.find((e)=>e.id===Number(productId));
+  useEffect(() => {
+    fetch(`http://65.52.218.65/api/game?id=${Number(productId)}`)
+    .then(response => response.json())
+    .then(item => setJson(...item))
+    .catch(error => console.log(error))
+  }, [])
   return (
     <div>
-      <Breadcrum product={product}/>
-      <ProductDisplay product={product}/>
+      <Breadcrum product={json}/>
+      <ProductDisplay product={json}/>
     </div>
   )
 }

@@ -1,8 +1,6 @@
 import './Navbar.css'
 import React, {useState} from 'react' 
 import {Link} from 'react-router-dom' 
-
-import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
 export const Navbar = () => {
 
@@ -11,7 +9,7 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='nav-logo'>
-            <img src={logo} alt=""/>
+            <img src={"/Assets/logo.png"} alt=""/>
             <p>NOMOREGAMES</p>
         </div>
         <ul className="nav-menu">
