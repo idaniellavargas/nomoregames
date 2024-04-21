@@ -1,0 +1,35 @@
+
+[
+  {
+    "id": 1,
+    "name": "Ginger Ninja",
+    "image": "../Assets/product_1.png", 
+    "new_price": 3.50,
+    "old_price": 10.00,
+    "description": "Embárcate en una aventura ninja picante en este juego de ritmo rápido. Esquiva obstáculos, derrota enemigos y recoge power-ups para convertirte en el ninja más ágil del mundo."
+  },
+  {
+    "id": 2,
+    "name": "Scratch & Win",
+    "image": "../Assets/product_1.png",
+    "new_price": 1.00,
+    "old_price": 5.00,
+    "description": "Rasca y gana premios increíbles en este juego de azar instantáneo. Rasca los casilleros para revelar símbolos y gana premios en efectivo, descuentos y más."
+  },
+  {
+    "id": 3,
+    "name": "Jumper Frog",
+    "image": "../Assets/product_1.png",
+    "new_price": 2.00,
+    "old_price": 8.00,
+    "description": "¡Salta y explora en este clásico juego de plataformas! Controla a una rana que debe saltar de nenúfar en nenúfar para llegar a la meta. Evita los obstáculos y recoge monedas para obtener puntos adicionales."
+  },
+  {
+    "id": 4,
+    "name": "Aliens Attack",
+    "image": "../Assets/product_1.png",
+    "new_price": 5.00,
+    "old_price": 7.00,
+    "description": "¡Defiende la Tierra de una invasión alienígena! Usa tu nave espacial para disparar a las naves enemigas y evita sus ataques. Mejora tu nave y tus armas para convertirte en el mejor defensor del planeta."
+  }
+]

@@ -1,7 +1,9 @@
 import React from 'react'
 import './Popular.css'
-import data_product from '../Assets/data'
+import data_product from '../Assets/data.json'
 import Item from '../Item/Item'
+
+
 const Popular = () => {
   return (
     <div className='popular'>
@@ -17,4 +19,4 @@ const Popular = () => {
   )
 }
 
-export default Popular
+    export default Popular
