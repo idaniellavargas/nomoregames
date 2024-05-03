@@ -1,0 +1,100 @@
+.desktop1Child {
+  width: 622px;
+  height: 104px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-darksalmon);
+  display: none;
+  max-width: 100%;
+}
+.checkboxesContainerChild,
+.productName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.productName {
+  width: 130%;
+  background-color: #ffcce8;
+}
+.checkboxesContainerChild {
+  border-radius: var(--br-3xl);
+  background-color: var(--color-brown);
+  display: none;
+}
+.image1Icon {
+  position: absolute;
+  top: 33px;
+  left: 15px;
+  width: 265px;
+  height: 177px;
+  object-fit: cover;
+  z-index: 2;
+}
+.checkboxesContainer {
+  position: absolute;
+  top: 117px;
+  left: 82px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-brown);
+  width: 293px;
+  height: 234px;
+  z-index: 1;
+}
+.productNameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 912px;
+}
+.blankLine,
+.silksongzip804Mb,
+.ustedEstaComprando {
+  margin: 0;
+}
+.ustedEstaComprandoContainer {
+  position: absolute;
+  top: 171px;
+  left: 397px;
+  display: inline-block;
+  width: 289px;
+  height: 151px;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  height: 888px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  gap: 22px;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 450px) {
+  .ustedEstaComprandoContainer {
+    font-size: var(--font-size-xl);
+  }
+  .frameParent {
+    height: auto;
+    min-height: 888px;
+  }
+}

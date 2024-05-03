@@ -1,0 +1,371 @@
+.frameChild {
+  width: 634px;
+  height: 609px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-navajowhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.informacionDelPago {
+  margin: 0;
+  width: 510px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.expirationDateLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-26xl);
+  font-family: var(--font-poppins);
+}
+.expirationDate {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 2;
+}
+.ddMmYy,
+.ddMmYyWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ddMmYy {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-11xl);
+  font-family: var(--semibold-type16);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray);
+  min-width: 217px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.ddMmYyWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs);
+  min-width: 235px;
+}
+.cvc {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 36px;
+  z-index: 2;
+}
+.frameParent {
+  width: 467px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+}
+.numeroDeTarjeta {
+  width: 164px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.cardNumber {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-11xl);
+  box-sizing: border-box;
+  font-family: var(--semibold-type16);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray);
+  min-width: 217px;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 2;
+}
+.cardNumber,
+.cvc1,
+.frameGroup,
+.numeroDeTarjetaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.numeroDeTarjetaParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 235px;
+  max-width: 100%;
+}
+.cvc1,
+.frameGroup {
+  flex-direction: row;
+}
+.cvc1 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  width: 143px;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-base) var(--padding-smi-6);
+  box-sizing: border-box;
+  font-family: var(--semibold-type16);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray);
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+}
+.cardNumberInput {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.cardNumberInput,
+.firstImage,
+.firstImageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.firstImage {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.firstImageWrapper {
+  width: 570px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) var(--padding-8xs);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 52px;
+  width: 365px;
+  position: relative;
+  border-radius: var(--br-mini);
+  display: none;
+  max-width: 100%;
+}
+.validar {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-acme);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 3;
+}
+.confirmationButton,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0 solid var(--color-black);
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-9xs);
+  background-color: var(--color-orange);
+  width: 365px;
+  border-radius: var(--br-mini);
+  z-index: 2;
+}
+.vectorParent:hover {
+  background-color: var(--color-chocolate);
+  border: 3px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.confirmationButton {
+  align-self: stretch;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.frameInner {
+  height: 95px;
+  width: 275px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.checkboxes,
+.image2Icon {
+  position: relative;
+  z-index: 3;
+}
+.image2Icon {
+  height: 55px;
+  width: 179px;
+  object-fit: contain;
+}
+.checkboxes {
+  margin: 0;
+  height: 51px;
+  width: 57px;
+}
+.rectangleGroup,
+.secondImage {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-lg) var(--padding-4xs) var(--padding-3xl)
+    var(--padding-2xs);
+  gap: var(--gap-lgi);
+  z-index: 2;
+}
+.secondImage {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 179px;
+}
+.secondCheckboxContainerChild {
+  height: 95px;
+  width: 275px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.checkboxes1,
+.image3Icon {
+  position: relative;
+  z-index: 3;
+}
+.image3Icon {
+  height: 69px;
+  width: 177px;
+  object-fit: cover;
+}
+.checkboxes1 {
+  margin: 0;
+  width: 47px;
+  flex: 1;
+}
+.checkboxesWrapper {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.secondCheckboxContainer,
+.secondImageParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.secondCheckboxContainer {
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro);
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xs) var(--padding-3xs)
+    var(--padding-xl);
+  gap: var(--gap-lgi);
+  z-index: 2;
+}
+.secondImageParent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-lg) 0 0;
+  gap: var(--gap-23xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 148px;
+  left: 742px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-navajowhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 634px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-2xs) var(--padding-3xs);
+  gap: var(--gap-43xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--semibold-type16-size);
+  color: var(--color-black);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 750px) {
+  .informacionDelPago {
+    font-size: var(--font-size-17xl);
+  }
+  .validar {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .informacionDelPago {
+    font-size: var(--font-size-8xl);
+  }
+  .validar {
+    font-size: var(--font-size-lg);
+  }
+}

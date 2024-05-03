@@ -1,0 +1,99 @@
+.image5Icon {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.nomoregames {
+  margin: 0;
+  width: 316px;
+  height: 42px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.nomoregamesWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-7) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.comprar {
+  top: 0;
+  left: 0;
+  height: 46px;
+}
+.clasicos,
+.comprar,
+.educativos,
+.movil {
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+  display: inline-block;
+  width: 143px;
+}
+.clasicos {
+  top: 1px;
+  left: 127px;
+  height: 46px;
+}
+.educativos,
+.movil {
+  height: 31px;
+}
+.educativos {
+  top: 2px;
+  left: 254px;
+  z-index: 1;
+}
+.movil {
+  top: 3px;
+  left: 407px;
+}
+.comprarClasicosEducativosMo {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.buyClassicEducativeMobile,
+.desktop1Inner,
+.image5Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buyClassicEducativeMobile {
+  margin: 0;
+  width: 550px;
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.desktop1Inner,
+.image5Parent {
+  flex-direction: row;
+}
+.image5Parent {
+  flex: 1;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.desktop1Inner {
+  width: 1257px;
+  padding: 0 var(--padding-16xl);
+  box-sizing: border-box;
+}
