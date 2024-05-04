@@ -19,7 +19,7 @@ export const Navbar = () => {
             <li onClick={()=>{setMenu("mobiles")}}><Link style={{textDecoration:'none'}} to='/mobiles'>Móvil</Link >{menu==="mobiles"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
-            <Link style={{textDecoration:'none'}} to='/login'><button>Inicia Sesión</button></Link >
+            <Link style={{textDecoration:'none'}} to='/register'><button>Inicia Sesión</button></Link >
             <Link style={{textDecoration:'none'}} to='/cart'><img src={cart_icon} alt=""/></Link >
             <div className="nav-cart-count">
                 0

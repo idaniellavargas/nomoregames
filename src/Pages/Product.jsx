@@ -1,5 +1,4 @@
-import React, {useContext, useState, useEffect} from 'react'
-import {ShopContext} from '../Context/ShopContext';
+import React, {useState, useEffect} from 'react'
 
 import {useParams} from 'react-router-dom';
 import Breadcrum from '../Components/Breadcrums/Breadcrum';
@@ -14,7 +13,7 @@ const Product = () => {
     .then(response => response.json())
     .then(item => setJson(...item))
     .catch(error => console.log(error))
-  }, [])
+  }, [productId])
   return (
     <div>
       <Breadcrum product={json}/>

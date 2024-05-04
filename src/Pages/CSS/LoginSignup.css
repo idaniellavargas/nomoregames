@@ -67,3 +67,10 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+.message{
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+  justify-self: center;
+}
