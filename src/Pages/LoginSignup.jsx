@@ -7,7 +7,7 @@ export const LoginSignup = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const [form, setForm] = useState({
-    name: '',
+    username: '',
     email: '',
     password: ''
   });
@@ -51,7 +51,7 @@ export const LoginSignup = () => {
       <div className="loginsignup-container">
         <h1>Crear cuenta</h1>
         <div className="loginsignup-fields">
-          <input type="text" placeholder='Nombre de usuario' name='username' value={form.name} onChange={handleChange}/>
+          <input type="text" placeholder='Nombre de usuario' name='username' value={form.username} onChange={handleChange}/>
           <input type="email" placeholder='Correo' name='email' value={form.email} onChange={handleChange}/>
           <input type="password" placeholder='Contraseña' name='password' value={form.password} onChange={handleChange}/>
         </div>
